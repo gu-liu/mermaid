@@ -1,22 +1,41 @@
-# User Journey Diagram
-
-> User journeys describe at a high level of detail exactly what steps different users take to complete a specific task within a system, application or website. This technique shows the current (as-is) user workflow, and reveals areas of improvement for the to-be workflow. (Wikipedia)
-
-Mermaid can render user journey diagrams:
-
-```mermaid-example
 journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-```
+    title 磁吸充电宝用户体验旅程图
 
-Each user journey is split into sections, these describe the part of the task
-the user is trying to complete.
+    section 预期阶段
+    购买前的期望: 5: 中性
+      - 轻薄便携（"薄如卡片"）
+      - 产品尺寸小于手机
+      - 多设备兼容性（"适配所有磁吸手机壳"）
 
-Tasks syntax is `Task name: <score>: <comma separated list of actors>`
+    section 接触阶段
+    首次产品接触: 5: 中性
+      - 外观设计吸引力
+      - 紧急场景续航表现（差旅/突发事件）
+
+    section 使用阶段
+    日常使用体验: 7: 满意
+      - 无负担便携性
+      - 视觉美感保持
+      - 磁吸稳定性能
+
+    使用痛点: 3: 失望
+      - 实际兼容性不足
+      - 材质与宣传不符
+      - 快充发热问题
+
+    产品高光时刻: 9: 兴奋
+      - "超薄形态：卡片式便携设计"
+      - "急速充电：超越预期的充电效率"
+      - "智能吸附：牢固磁吸+精准定位"
+      - "温控表现：低温快充不烫手"
+      - "感官愉悦：高级材质触感体验"
+      - "无感携带：多场景无缝使用"
+
+    情感落差: 2: 沮丧
+      - 紧急时刻充电失效
+      - 实际续航低于宣传
+
+    section 体验断点
+    核心故障场景: 1: 负面
+      - 持续充电过热问题
+      - 高温保护触发停机
